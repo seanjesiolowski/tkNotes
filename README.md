@@ -1,2 +1,2 @@
 # notesProject
-Application merely *creates* a list of notes (copied from notes.txt)
+Application creates (in memory) and saves (to file) a list of notes

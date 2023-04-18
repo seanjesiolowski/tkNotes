@@ -1,5 +1,6 @@
 import tkinter as tk
 from notes import Notes
+from file import FileHandler
 
 
 class MainApplication(tk.Frame):
@@ -19,6 +20,8 @@ class MainApplication(tk.Frame):
         entry_content = self.my_entry.get()
         note_in_hand = Notes()
         note_in_hand.write_to_note(entry_content)
+        f_hand = FileHandler()
+        f_hand.save_note(entry_content)
         self.render_notes()
 
     def render_notes(self):

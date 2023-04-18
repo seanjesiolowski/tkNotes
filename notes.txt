@@ -1,1 +1,0 @@
-Application merely *creates* a list of notes
