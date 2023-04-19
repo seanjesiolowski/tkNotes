@@ -2,7 +2,7 @@ class FileHandler:
     def __init__(self):
         self.filename = 'tasks.txt'
 
-    def write_lines(self, note_text):
+    def append_line(self, note_text):
         with open(self.filename, 'a') as f:
             f.write(note_text + '\n')
 

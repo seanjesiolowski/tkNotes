@@ -9,9 +9,6 @@
 
 ### Todo
 - *big picture: complete C.R.U.D. functionality and adequate styling/UI*
-- implement TopLevel (window) widget for each individual note
-- implement read-individual-note functionality
-- implement delete-individual-note functionality
 - refactor update-individual-note functionality
 - refactor FileHandler class around class attribute for file
 - refactor MainApplication class - i.e., render_notes and delete_notes methods
