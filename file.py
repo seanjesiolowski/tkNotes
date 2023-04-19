@@ -1,16 +1,25 @@
-class FileHandler:
-    def __init__(self):
-        self.filename = 'tasks.txt'
+from notes import Notes
 
-    def append_line(self, note_text):
-        with open(self.filename, 'a') as f:
-            f.write(note_text + '\n')
+filename = 'tasks.txt'
 
-    def read_lines(self):
-        with open(self.filename, 'r') as f:
-            file_lines = f.readlines()
-        return file_lines
 
-    def delete_lines(self):
-        with open(self.filename, 'w') as f:
-            f.write('')
+def read_lines():
+    with open(filename, 'r') as f:
+        file_lines = f.readlines()
+    return file_lines
+
+
+def delete_lines():
+    with open(filename, 'w') as f:
+        f.write('')
+
+
+def write_notes_as_lines():
+    with open(filename, 'a') as f:
+        for note in Notes.notes_list:
+            f.write(note.note_content + '\n')
+
+
+def refresh_file_notes():
+    delete_lines()
+    write_notes_as_lines()
