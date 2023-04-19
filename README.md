@@ -1,16 +1,17 @@
 # notesProject
+- project organized by classes-and-object(s) as well as modules-and-functions
+- code written using Python and Python's tkinter (user interface library)
 
-## Current application 
-- takes input string from user, then creates (in memory) and saves (to file) a list of notes
-- allows each note to render as a button that hides itself when pressed (note (text) remains in file)
-- at application launch, reads file "notes" (text), assigning each note's text content to a unique and subsequently rendered note object
-- can render each individual note via a focused, top-level window - also includes the option to delete the individual note
+## Current application
+- at launch, reads file notes-text
+- takes input "note" string from user
+- creates (in memory) and saves (to file) a list of notes
+- allows each note to render as a button that hides itself when hide button pressed
+- assigning each note's text content to a unique and subsequently-rendered note object
 - allows user to edit/update the rendered note by inputting text in main entry and pressing note's edit button
-- uses python's tkinter (user interface library)
-- organized with object-oriented programming
+- via user clicking on note button, can render each individual note via a new, focused, top-level window 
+- includes the option to delete the individual note within new window
 
 ### Todo
-- *big picture: complete C.R.U.D. functionality and adequate styling/UI*
-- refactor FileHandler class around class attribute for file
-- refactor MainApplication class - i.e., render_notes and delete_notes methods
+- *big picture: complete C.R.U.D. functionality  (check!) and adequate styling/UI (not yet)*
 - switch ui geometry management from pack to grid 
