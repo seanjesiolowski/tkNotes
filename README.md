@@ -9,7 +9,6 @@
 
 ### Todo
 - *big picture: complete C.R.U.D. functionality and adequate styling/UI*
-- refactor update-individual-note functionality
 - refactor FileHandler class around class attribute for file
 - refactor MainApplication class - i.e., render_notes and delete_notes methods
 - switch ui geometry management from pack to grid 
