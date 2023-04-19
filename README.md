@@ -1,7 +1,17 @@
 # notesProject
 
-Application takes input string from user, then creates (in memory) and saves (to file) a list of notes;
-also allows each note to render as a button that hides itself when pressed (note (text) remains in file);
-also, at application launch, reads file notes, assigning each's text content to a unique and subsequently rendered note object
+## Current application 
+- takes input string from user, then creates (in memory) and saves (to file) a list of notes
+- allows each note to render as a button that hides itself when pressed (note (text) remains in file)
+- at application launch, reads file "notes", assigning each note's text content to a unique and subsequently rendered note object
+- allows user to edit/update the rendered note by inputting text in main entry and pressing note's "E" (for edit) button
+- uses python (programming language), tkinter (user interface) and object-oriented programming (code structure)
 
-Application uses tkinter (user interface) and object-oriented programming (code structure)
+### Todo
+- *big picture: complete C.R.U.D. functionality and adequate styling/UI*
+- implement TopLevel (window) widget for each individual note
+- implement read-individual-note functionality
+- implement delete-individual-note functionality
+- refactor update-individual-note functionality
+- refactor FileHandler class around class attribute for file
+- refactor MainApplication class - i.e., render_notes and delete_notes methods
