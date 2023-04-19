@@ -6,7 +6,8 @@
 - at application launch, reads file "notes" (text), assigning each note's text content to a unique and subsequently rendered note object
 - can render each individual note via a focused, top-level window - also includes the option to delete the individual note
 - allows user to edit/update the rendered note by inputting text in main entry and pressing note's edit button
-- uses python (programming language), tkinter (user interface) and object-oriented programming (code structure)
+- uses python's tkinter (user interface library)
+- organized with object-oriented programming
 
 ### Todo
 - *big picture: complete C.R.U.D. functionality and adequate styling/UI*
